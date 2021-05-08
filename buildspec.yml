@@ -13,4 +13,4 @@ phases:
 
   build:
     commands:
-      - eb deploy flaskenv
+      - make deploying
