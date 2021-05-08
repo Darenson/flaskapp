@@ -13,4 +13,5 @@ phases:
 
   build:
     commands:
-      - make deploying
+      - make deploy
+      
