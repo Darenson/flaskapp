@@ -10,6 +10,6 @@ lint:
 
 deploy:
 	echo "Deploying app"
-	eb deploy cryptoflask-demo-env
+	eb deploy flaskcryptoapp-env
 
 all: install lint test 
