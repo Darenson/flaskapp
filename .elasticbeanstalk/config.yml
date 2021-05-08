@@ -1,12 +1,13 @@
 branch-defaults:
   main:
-    environment: cryptoflask-demo-env
+    environment: flaskcryptoapp-env
+    group_suffix: null
 global:
-  application_name: cryptoflask-demo
+  application_name: flaskcryptoapp
   branch: null
-  default_ec2_keyname: aws-cryptoapp-demo
+  default_ec2_keyname: null
   default_platform: Python 3.7
-  default_region: us-west-1
+  default_region: us-east-1
   include_git_submodules: true
   instance_profile: null
   platform_name: null
@@ -15,3 +16,4 @@ global:
   repository: null
   sc: git
   workspace_type: Application
+
